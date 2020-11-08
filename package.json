@@ -30,9 +30,13 @@
     "bootstrap": "yarn example && yarn && yarn pods"
   },
   "keywords": [
+    "react-native-knight",
+    "react-component",
     "react-native",
     "ios",
-    "android"
+    "android",
+    "react-native-ui-kit",
+    "ui-kit"
   ],
   "repository": "https://github.com/lukmanhidayah/react-native-knight",
   "author": "lukmanhidayah <lukmanhidayah01@gmail.com> (https://github.com/lukmanhidayah)",
@@ -119,7 +123,10 @@
       ]
     }
   },
-  "eslintIgnore": ["node_modules/", "lib/"],
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
   "prettier": {
     "quoteProps": "consistent",
     "singleQuote": true,
@@ -130,6 +137,10 @@
   "@react-native-community/bob": {
     "source": "src",
     "output": "lib",
-    "targets": ["commonjs", "module", "typescript"]
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
   }
 }
