@@ -1,11 +1,16 @@
-# react-native-knight
+# React Native Knight
 
 Simple and beauty UI-KIT for react native
 
 ## Installation
-
+### NPM
 ```sh
 npm install react-native-knight
+```
+OR
+### Yarn
+```sh
+yarn add react-native-knight
 ```
 
 ## Usage
